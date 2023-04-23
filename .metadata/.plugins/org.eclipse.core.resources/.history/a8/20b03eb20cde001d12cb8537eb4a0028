@@ -1,0 +1,24 @@
+package java9;
+
+import java.util.Scanner;
+
+import javax.security.auth.AuthPermission;
+
+public class gioithieuscanner {
+		public static void main(String[] args) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("nhap vao ho va ten: ");
+			String Hovaten = sc.nextLine();
+			System.out.println("nhap vao ma sinh vien: ");
+			int msv = sc.nextFloat();
+			System.out.println("nhap vao diem thi: ");
+			float Diemthi = sc.nextFloat();
+			System.out.println("==========");
+			System.out.println("Ho Va Ten: "+ Hovaten);
+			System.out.println("Ma sinh vien: "+ msv);
+			System.out.println("Diem thi: "+ Diemthi);
+					
+					
+		}
+
+}

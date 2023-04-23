@@ -1,0 +1,16 @@
+package java05;
+
+public class vidu {
+	public static void main(String[] args) {
+		String tensach = "lap trinh java";
+		int namsuatban = 2021;
+		double giasach = 20.500;
+		boolean tinhtrang = true;
+		char makho = M;
+	System.out.println("ten sach: " + tensach);
+	System.out.println("nam suat ban: " + namsuatban);
+	System.out.println("gia tien: "+ giasach);
+	System.out.println("tinh trang: "+ tinhtrang);
+	System.out.println("ma kho: "+ makho);
+	}
+	}

@@ -1,0 +1,26 @@
+package java10;
+
+import java.util.Scanner;
+
+public class cacpheptinhtrongjava {
+	public static void main(String[] args) {
+		//khai báo 
+		int a,b;
+		//nhập dữ liệu
+		Scanner sc = new Scanner(System.in);
+		System.out.println("nhap vao a ="+a);
+		a = sc.nextInt();
+		System.out.println("nhap vao b ="+b);
+		b = sc.nextInt();
+		
+		int tong = a+b;
+		System.out.println(a "+" b "=" +tong);
+		int hieu = a-b;
+		System.out.println(a "-" b "=" +hieu);
+		int tich = a*b;
+		System.out.println(a "*" b "=" +tich);
+		int thuong = a/b;
+		System.out.println(a "/" b "=" +thuong);
+		
+	}
+}

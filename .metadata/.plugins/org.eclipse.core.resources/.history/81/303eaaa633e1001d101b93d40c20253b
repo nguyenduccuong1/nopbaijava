@@ -1,0 +1,17 @@
+package baithuchanh33;
+
+import java.util.Scanner;
+
+public class Slide55 {
+	public static void main(String[] args) {
+		scanner sc = new Scanner(System.in);
+		int i;
+		while(i<200) {
+			if(i%5==0) {
+				System.out.println("so vua nhap chia het cho 5: "+i);
+				
+			}
+			break;
+		}
+	}
+}
